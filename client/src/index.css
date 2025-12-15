@@ -1,0 +1,131 @@
+:root {
+  --primary: #3b82f6;
+  --bg: #f3f4f6;
+  --text: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #111827;
+  text-decoration: none;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #4b5563;
+}
+
+.header a:hover {
+  color: #111827;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+}
+
+.task {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-delete {
+  background: #ef4444;
+  margin-left: 10px;
+}
+
+.task-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
